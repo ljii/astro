@@ -1,8 +1,6 @@
-import { defineConfig } from "astro/config";
-import vercel from "@astrojs/vercel/edge";
+import { defineConfig } from 'astro/config'
 
-// https://astro.build/config
 export default defineConfig({
-  output: 'server',
-  adapter: vercel(),
-});
+  site: 'https://ljii.github.io',
+  base: 'astro',
+})
