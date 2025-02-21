@@ -5,4 +5,7 @@ import vercel from "@astrojs/vercel/edge";
 export default defineConfig({
   output: 'server',
   adapter: vercel(),
+   redirects: {
+    '/unos': 'https://mrjaz.com'
+  }
 });
